@@ -16,6 +16,20 @@ async function startServer() {
       ? path.resolve(__dirname, "public")
       : path.resolve(__dirname, "..", "dist", "public");
 
+  // Route handler for storage assets
+  app.get("/manus-storage/*", (req, res, next) => {
+    const key = req.params[0] || "";
+
+    if (key.includes("meraqui-hero-atmosphere_3f359ec9")) {
+      return res.redirect(307, "/meraqui-hero-atmosphere_3f359ec9.webp");
+    }
+    if (key.includes("meraqui-pool-courtyard_c9f3cb09")) {
+      return res.redirect(307, "/meraqui-pool-courtyard_c9f3cb09.webp");
+    }
+
+    next();
+  });
+
   app.use(express.static(staticPath));
 
   // Handle client-side routing - serve index.html for all routes
