@@ -6,20 +6,20 @@ import { ContactDock } from "@/components/ExpansionBlocks";
 import { LeadPopup, SiteFooter } from "@/components/FinalChrome";
 
 const storage = {
-  hero: "/manus-storage/meraqui-hero_69f6afeb.webp",
-  arrival: "/manus-storage/meraqui-arrival_7a2cecde.webp",
-  master: "/manus-storage/master-plan_64b1dacc.webp",
-  facade: "/manus-storage/clubhouse-facade_94904d49.webp",
-  video: "/manus-storage/gillcovideo_71045890.mp4",
-  generatedHero: "/manus-storage/meraqui-hero-atmosphere_3f359ec9.jpg",
-  pool: "/manus-storage/meraqui-pool-courtyard_c9f3cb09.jpg",
-  club: "/manus-storage/meraqui-clubhouse-evening_17dea46e.jpg",
-  mark: "/manus-storage/meraqui-wing-mark_7a6cc4a0.png",
-  plan3150: "/manus-storage/plan-3150_66bea140.webp",
-  plan3200: "/manus-storage/plan-3200_7016787a.webp",
-  plan3500: "/manus-storage/plan-3500_1ec533cb.webp",
-  plan4350: "/manus-storage/plan-4350_85e1cb37.webp",
-  plan4550: "/manus-storage/plan-4550_499b2df6.webp",
+  hero: "/meraqui-hero_69f6afeb.webp",
+  arrival: "/meraqui-arrival_7a2cecde.webp",
+  master: "/master-plan_64b1dacc.webp",
+  facade: "/clubhouse-facade_94904d49.webp",
+  video: "/gillcovideo_71045890.mp4",
+  generatedHero: "/meraqui-hero-atmosphere_3f359ec9.webp",
+  pool: "/meraqui-pool-courtyard_c9f3cb09.webp",
+  club: "/meraqui-clubhouse-evening_17dea46e.jpg",
+  mark: "/meraqui-wing-mark_7a6cc4a0.png",
+  plan3150: "/plan-3150_66bea140.webp",
+  plan3200: "/plan-3200_7016787a.webp",
+  plan3500: "/plan-3500_1ec533cb.webp",
+  plan4350: "/plan-4350_85e1cb37.webp",
+  plan4550: "/plan-4550_499b2df6.webp",
 };
 
 const plans = [
