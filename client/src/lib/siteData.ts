@@ -57,7 +57,23 @@ page('contact-gillco-meraqui','Contact Gillco Meraqui','45 / START A CONVERSATIO
 page('gillco-meraqui-faq','Gillco Meraqui — Frequently Asked Questions','46 / QUESTIONS, ANSWERED','A clear starting point for the questions buyers commonly ask about the project, plans, approvals, location, pricing, and the purchase journey.',['Project and location','Plans and specifications','Pricing and payment','Approvals and process'],S.master,'faq'),
 page('blog/airport-road-mohali-real-estate-hotspot','Why Airport Road, Mohali Is Emerging as a Real Estate Hotspot','47 / JOURNAL','Airport Road is becoming a more important residential corridor because it connects movement, employment, city access, and a new generation of planned communities.',['The corridor story','Why connectivity compounds','What buyers should assess','Meraqui in context'],S.hero,'blog'),
 page('blog/gillco-group-25-years-legacy','Gillco Group: 25 Years of Building Trust in North India','48 / JOURNAL','A closer look at the values, continuity, and execution mindset behind Gillco Group’s long residential and commercial journey.',['A founding vision','Trust built over time','What continuity means for buyers','The Meraqui chapter'],S.arrival,'blog'),
-page('thank-you',"Thank You — We've Received Your Enquiry",'49 / NEXT STEP','Your enquiry has reached the Gillco Meraqui team. Keep the project pack close and expect a response from the team shortly.',['Your enquiry is in','What happens next','Keep exploring Meraqui','Return to the homepage'],S.club,'thankyou')
+page('thank-you',"Thank You — We've Received Your Enquiry",'49 / NEXT STEP','Your enquiry has reached the Gillco Meraqui team. Keep the project pack close and expect a response from the team shortly.',['Your enquiry is in','What happens next','Keep exploring Meraqui','Return to the homepage'],S.club,'thankyou'),
+  page(
+  'gillco-meraqui-parking',
+  'Gillco Meraqui Parking Facilities',
+  '75 / PARKING',
+  'Explore parking facilities at Gillco Meraqui, including resident parking, visitor parking, accessibility, security, and EV charging considerations.',
+  [
+    'Parking Facilities at Gillco Meraqui',
+    'Resident Parking',
+    'Visitor Parking',
+    'Parking Convenience & Accessibility',
+    'Security & Parking Management',
+    'EV Charging Readiness',
+    'Why Parking Matters When Buying at Gillco Meraqui'
+  ],
+  S.facade
+)
 ];
 
 export const pageBySlug = Object.fromEntries(pages.map(p=>[p.slug,p])) as Record<string,PageConfig>;
